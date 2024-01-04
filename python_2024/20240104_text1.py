@@ -39,7 +39,7 @@ chicken2=friedchicken("青花椒香麻雞","脆皮",8,"雞腿",180)
 chicken3=friedchicken("上校炸雞","薄皮",0,"雞胸",140)
 chicken4=friedchicken("剝皮辣椒雞","薄皮",5,"雞胸",200)
 
-
+#呼叫副函式
 print("Original friedchicken Details:")
 chicken1.print_details()
 chicken2.print_details()
@@ -60,9 +60,10 @@ chicken4.setspiciness(6)
 chicken4.setparts("雞腿")
 chicken4.calculate_servicecharge()
 
-
+#空白行
 print ("  ")
 print ("  ")
+#呼叫副函式
 print("Updated friedchicken Details:")
 chicken1.print_details()
 chicken2.print_details()
